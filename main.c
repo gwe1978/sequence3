@@ -9,8 +9,8 @@ int main(){
 
 	/* 1. Calculs et affichages */
 	srand((unsigned)time(NULL));
-	n1=hasard(10,60);
-	n2=hasard(10,60);
+	n1=hasard(10,15);
+	n2=hasard(10,15);
 	calcul=somme(n1,n2);
 	printf("La somme de %d et de %d vaut %d\n\n", n1, n2, calcul);
 
