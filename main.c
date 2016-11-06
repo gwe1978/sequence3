@@ -3,8 +3,10 @@
 #include <time.h>
 
 int main(){
+	/* 0. Déclaration */
 	int n1, n2, calcul;
 
+	/* 1. Calculs et affichages */
 	srand((unsigned)time(NULL));
 	n1=rand()%51+10;
 	n2=rand()%51+10;
